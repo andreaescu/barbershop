@@ -9655,5 +9655,32 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.logo {
+  width: 10%;
+}
+
+.bg-barber {
+  background-color: #121619;
+}
+
+.imagen {
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: #FFF;
+  font-style: italic;
+  text-align: center;
+}
+
+.img {
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */

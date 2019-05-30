@@ -1,0 +1,15 @@
+.imagen {
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-size: $x-large;
+  font-family: $playfair;
+  font-weight: $blackb;
+  color: $white;
+  font-style: italic;
+  text-align: center;
+}
