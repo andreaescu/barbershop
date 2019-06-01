@@ -1,3 +1,48 @@
 .img {
   max-width: 100%;
 }
+
+.text {
+  background-color: $white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.date {
+  font-size: $large;
+  font-family: $playfair;
+  font-weight: $regular;
+  color: $nickel;
+}
+
+.paragraph {
+  font-size: $medium;
+  font-family: $roboto;
+  font-weight: $regular;
+  color: $nickel;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.author {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.author__img {
+  border-radius: 200px;
+}
+
+ h2 {
+   font-family: $playfair;
+   font-size: $large;
+   font-style: italic;
+ }
+
+ h3 {
+   font-family: $roboto;
+   font-size: $medium;
+   color: $spanish-pink;
+ }
