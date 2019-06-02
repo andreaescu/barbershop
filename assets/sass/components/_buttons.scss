@@ -6,4 +6,10 @@
   background-color: $nickel;
   color: $white;
   border-radius: 30px;
+
+  &:hover {
+    background-color: $light-gray;
+    color: $white;
+    
+  }
 }

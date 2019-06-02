@@ -9,35 +9,40 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-barber">
-      <img class="logo" src="assets/images/logo.png" alt="logo">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Horas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
+      <div class="container">
+        <img class="logo" src="assets/images/logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Horas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <header class="imagen">
-      <h1>5 formas de cuidar tu corte de cabello</h1>
+      <div class="container">
+        <h1>5 formas de cuidar tu corte de cabello</h1>
+      </div>
     </header>
-    <section class="text">
+    <section class="container mt-5">
       <p class="date">12 de abril de 2018</p>
+      <br>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -46,23 +51,37 @@
       <br>
       <button type="button" class="btn btn-social">Compartir</button>
       <button type="button" class="btn btn-social">Comentar en Twitter</button>
-      <hr>
     </section>
-    <section class="author">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col md-2">
-            <img class="author__img" src="assets/images/naomi-thai.png" alt="naomi">
-          </div>
-          <div class="col md-2">
-            <h2>Naomi Thai</h2>
-            <h3>@Naothaidepelos.com</h3>
-          </div>
-          <div class="col md-10">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+  <hr>
+    <section class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="author__img" src="assets/images/naomi-thai.png" alt="naomi">
+        </div>
+        <div class="col-md-3">
+          <h2>Naomi Thai</h2>
+          <h3>@Naothaidepelos.com</h3>
+        </div>
+        <div class="col-md-6 d-none d-sm-block">
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
     </section>
+    
+    <section class="pag">
+      <nav aria-label="">
+        <ul class="pagination justify-content-center text-dark">
+          <li class="page-item disabled"><a class="page-link text-dark" href="#" tabindex="-1" aria-disabled="true">Anterior</a></li>
+          <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+          <li class="page-item"><a class="page-link text-dark" href="#">Siguiente</a></li>
+        </ul>
+      </nav>
+    </section>
+    <footer class="container-fluid footer bg-barber">
+      <img class="footer__img" src="assets/images/logo.png" alt="logo">
+    </footer>
+
   </body>
 </html>
